@@ -6,3 +6,23 @@ Table of Contents
 2. Data Preprocessing
 3. Clustering Algorithms
 4. Results
+
+Dataset
+The dataset used in this project is the Diabetes dataset. It contains information about diabetes patients, including various clinical and demographic features.
+
+Data Preprocessing
+In the data preprocessing phase, we perform the following steps:
+
+1. Data cleaning: Handling missing values, outliers, and duplicates.
+2. Feature selection: Identifying relevant features for clustering.
+3. Feature scaling: Standardizing or normalizing data to ensure that all features contribute equally to clustering.
+
+Clustering Algorithms
+We apply the following clustering algorithms to the preprocessed data:
+
+1. K-Means
+2. Hierarchical Clustering
+Each algorithm may yield same clusters, and we evaluate their performance using relevant metrics.
+
+Results
+Our clustering analysis reveals insights into the diabetes patient data. We visualize the clusters and interpret their clinical significance. Additionally, we calculate metrics such as silhouette score and inertia to assess the quality of the clusters.
